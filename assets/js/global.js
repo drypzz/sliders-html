@@ -16,6 +16,14 @@ document.querySelector('#mobile-menu').addEventListener('click',
     }
 );
 
+// date
+
+date = function(){
+    return document.querySelector('#date').innerHTML = new Date().getFullYear();
+};
+
+date();
+
 // sliders
 
 const controls = document.querySelectorAll('.control');
